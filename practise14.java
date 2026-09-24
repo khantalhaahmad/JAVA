@@ -18,8 +18,11 @@ public class practise14 {
         else if(b>a && b>c){
             System.out.println("b is greater than a and c"); 
         }
-        else{
+        else if(c>a && c>b){
             System.out.println("c is greater than a and b");
+        }
+        else{
+            System.out.println("All numbers are equal");
         }
     }
     
